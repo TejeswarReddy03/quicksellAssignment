@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
 import './App.css';
-import TopNav from './components/Navbar/TopNav';
+import TopNav from './components/Navbar/Navbar';
 // import Card from './components/Card/Card';
-import DashView from './components/DashBoard/DashView';
+import DashView from './components/DashBoard/DashBoardView';
 import { useDispatch, useSelector} from 'react-redux'
 import { fetchAllData } from './Actions/DataAction';
-import Loading from './components/LoadingScreen/Loading';
+import Loading from './components/LoadingScreen/LoadingScreen';
 
 const App = () => {
   const dispatch = useDispatch();

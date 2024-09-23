@@ -5,7 +5,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineCheck, AiOutlineLoading3Quarters, AiOutlineFileText, AiOutlineClose } from "react-icons/ai";
 import { FaCheckCircle, FaSpinner, FaRegSquare, FaTimesCircle } from "react-icons/fa";
 import { MdDone, MdAutorenew, MdOutlinePendingActions, MdCancel } from "react-icons/md";
-import "./DashView.css";
+import "./DashBoardView.css";
 import Card from "../CardDesign/Card";
 
 const DashView = () => {
